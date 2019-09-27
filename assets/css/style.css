@@ -11,3 +11,19 @@ h1 {
   bottom: 50%;
   font-size: 400%;
 }
+ul#nav li {
+  display: inline;
+  overflow: hidden;
+}
+#barre {
+  width: 100%;
+  height: 50px;
+  background-color: #00ff00;
+}
+#conteneur {
+  display: flex;
+}
+#element1 {
+  background-image: url('http://www.phototheque.net/assets/egypte00.jpg');
+  height: 400px;
+}
