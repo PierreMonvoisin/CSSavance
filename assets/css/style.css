@@ -1,4 +1,13 @@
-header.page-header {
-  height: 10%;
-  width: 50%;
+header {
+  background: url("../img/header2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+h1 {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  bottom: 50%;
+  font-size: 400%;
 }
