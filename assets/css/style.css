@@ -1,3 +1,6 @@
+body {
+  background-color: #8090c2;
+}
 header {
   background: url("../img/header2.jpg");
   background-repeat: no-repeat;
@@ -14,16 +17,75 @@ h1 {
 ul#nav li {
   display: inline;
   overflow: hidden;
+  padding-left: 5%;
+}
+ul#nav {
+  font-size: 125%;
+  padding: 1%;
+  padding-left: 10%;
+  background-color: #c2b280;
+  border-radius: 10px;
 }
 #barre {
-  width: 100%;
-  height: 50px;
-  background-color: #00ff00;
+  width: auto;
+  height: auto;
+  background-color: grey;
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 110%;
+}
+section  {
+  background-color: #6c7bab;
+  padding-top: 10px;
+  margin-top: 1%;
+  padding-bottom: 10px;
+}
+ul#titre li {
+  display: inline;
+  color: white;
+}
+#titre1 {
+  padding-left: 8%;
+  padding-right: 17%;
+}
+#titre2 {
+  padding-right: 16%;
 }
 #conteneur {
   display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  margin-top: 30px;
 }
 #element1 {
-  background-image: url('http://www.phototheque.net/assets/egypte00.jpg');
-  height: 400px;
+  background-image: url('http://www.phototheque.net/assets/egypte02.jpg');
+  flex: 1;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#element2 {
+  background-image: url('http://www.phototheque.net/assets/egypte06.jpg');
+  flex: 1;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#element3 {
+  background-image: url('http://www.phototheque.net/assets/egypte08.jpg');
+  flex: 1;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+ul#legende li {
+  display: inline;
+  color: white;
+  text-decoration: underline;
+}
+#legende1 {
+  padding-left: 8%;
+  padding-right: 17%;
+}
+#legende2 {
+  padding-right: 17%;
 }
