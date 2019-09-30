@@ -1,3 +1,8 @@
+@media all and (min-width: 480px){
+  #container {
+    height: 100px;
+  }
+}
 body {
   background-color: #8090c2;
 }
